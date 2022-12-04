@@ -421,3 +421,38 @@ print(s1.count(s2))
 # - список: ["йцу", "фыв", "ячс", "цук", "йцукен"], ищем: "йцу", ответ: -1
 # - список: ["123", "234", 123, "567"], ищем: "123", ответ: -1
 # - список: [], ищем: "123", ответ: -1
+
+# def pro_list(lst_):
+#     result = []
+#     for i in range(len(lst_) // 2 + 1):
+#         result.append(lst_[i] * lst_[- i - 1])
+#     print(result)
+#
+# lst1 = [1,2,3,4,5]
+# print(pro_list(lst1))
+
+# def fib(n):
+#     if n == 1:
+#         return 0
+#     elif n == 0:
+#         return 1
+#
+#     return fib(n - 1) + fib(n - 2)
+#
+# print(fib(10))
+
+
+# mem = {1: 0, 2: 1}
+#
+#
+# def fib(n):
+#     if n not in mem:
+#         mem[n] = fib(n - 1) + fib(n - 2)
+#
+#         return mem[n]
+#
+#
+# print(fib(10))
+# print(mem)
+
+
